@@ -1,9 +1,9 @@
-# CiBsQueue
+# CiBsAstQueue
 ###################
-What is CiBsQueue
+What is CiBsAstQueue
 ###################
 
-CodeIgniter is an application developed with codeigniter 3 and bootstrap 4, which displays the service queues
+CiBsAstQueue is an application developed with codeigniter 3 and bootstrap 4, which displays the service queues
 of an asterisk application over AJAM.
 
 *******************

@@ -19,6 +19,7 @@ Asterisk version 13 or newer
 1 - Configure Asynchronous Javascript Asterisk Manager (AJAM) in your Asterisk server, see: https://wiki.asterisk.org/wiki/pages/viewpage.action?pageId=4817256
 
 2 - Set the custom configurations in \application\config\custom.php file on your project
+
 	$config['title'] =  "Queues - Monitor";  //Page title	
 	
 	$config['customuser'] = false; // Used if you want to show a custom name from extension owner (loaded from database)	

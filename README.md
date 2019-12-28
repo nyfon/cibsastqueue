@@ -8,14 +8,14 @@ of an asterisk application over AJAM.
 
 *******************
 Requirements
-*******************
+
 
 PHP version 5.6 or newer is recommended.
 Asterisk version 13 or newer
 
 *******************
 Configuration
-*******************
+
 1 - Configure Asynchronous Javascript Asterisk Manager (AJAM) in your Asterisk server, see: https://wiki.asterisk.org/wiki/pages/viewpage.action?pageId=4817256
 
 2 - Set the custom configurations in \application\config\custom.php file on your project

@@ -7,14 +7,14 @@ CiBsAstQueue is an application developed with codeigniter 3 and bootstrap 4, whi
 of an asterisk application over AJAM.
 
 *******************
-Requirements
+# Requirements
 
 
 PHP version 5.6 or newer is recommended.
 Asterisk version 13 or newer
 
 *******************
-Configuration
+# Configuration
 
 1 - Configure Asynchronous Javascript Asterisk Manager (AJAM) in your Asterisk server, see: https://wiki.asterisk.org/wiki/pages/viewpage.action?pageId=4817256
 

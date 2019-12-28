@@ -31,8 +31,11 @@ class Load extends CI_Controller
     {
 		parent::__construct();
 		$this->load->helper('url');
-		$this->load->model('User_model');   
-		$this->config->load('custom');				  
+		$this->config->load('custom');	
+		if($this->config->item('customuser') == true)
+		{
+			$this->load->model('User_model');   
+		}
 	
     }
     

@@ -3,8 +3,8 @@
 What is CiBsAstQueue
 ###################
 
-CiBsAstQueue is an application developed with codeigniter 3 and bootstrap 4, which displays the service queues
-of an asterisk application over AJAM.
+CiBsAstQueue is an application developed with Codeigniter 3 and Bootstrap 4, which displays the service queues
+of an Asterisk application over AJAM.
 
 *******************
 # Requirements
@@ -38,8 +38,8 @@ Asterisk version 13 or newer
 Qu'est-ce le CiBsAstQueue
 ###################
 
-Le CiBsAstQueue est un app developé avec le codeigniter 3 et le bootstrap 4, qui affiche les files d'attente de service
-de l'asterisk app.
+Le CiBsAstQueue est un app developé avec le Codeigniter 3 et le Bootstrap 4, qui affiche les files d'attente de service
+de l'Asterisk app.
 
 *******************
 # L'exigences 

@@ -31,3 +31,38 @@ Asterisk version 13 or newer
 	$config['asterisk_ajam'] = array("host" => "172.20.18.91", "port" => "8088"); // Asterisk server IP adrress and AJAM port 
 	
 	$config['asterisk_ami'] = array("username" => "snep", "secret" => "sneppass");// AMI unsername and password
+
+
+
+###################
+Qu'est-ce le CiBsAstQueue
+###################
+
+Le CiBsAstQueue est un app developé avec le codeigniter 3 et le bootstrap 4, qui affiche les files d'attente de service
+de l'asterisk app.
+
+*******************
+# L'exigences 
+
+
+PHP version 5.6 ou ultérieure est recommandée
+Asterisk version 13 ou ultérieure
+
+*******************
+# La configuration du système
+
+1 - Mettre en place Asynchronous Javascript Asterisk Manager (AJAM) sur votre serveur Asterisk: https://wiki.asterisk.org/wiki/pages/viewpage.action?pageId=4817256
+
+2 - Définissez les configurations personnalisées dans le fichier \application\config\custom.php de votre projet
+
+	$config['title'] =  "Queues";  //Titre de la page
+	
+	$config['customuser'] = false; // Ce devoir être utilisé si vous souhaitez afficher un nom personnalisé du propiétaire du poste téléphonique (chargé à partir de la base de données)	
+	
+	$config['usersdatatypearray'] =  TRUE;  // Utilisez FALSE pour l'objet. C'est utilizsé si votre donnéss utilisateur renvoyer un étalage ou un objet.
+	
+	$config['refresh'] =  5000  ;  // Le temps en millisecondes pour recharger la page
+	
+	$config['asterisk_ajam'] = array("host" => "172.20.18.91", "port" => "8088"); // Le IP et l'addresss du serveur asterisk et AJAM
+	
+	$config['asterisk_ami'] = array("username" => "snep", "secret" => "sneppass");// l'utilisateur et le mot de passe du AMI
